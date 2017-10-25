@@ -11,7 +11,7 @@ exports.handler = (event, context, callback) => {
         fulfillmentState: "Fulfilled",
         message: {
           contentType: "PlainText",
-          content: "Thanks for the desire to collaborate with " + topic + " topic." + " " + "Let's keeping touch, here my email: albertohernandez2288@gmail.com"
+          content: "Your message..."
         }
       }
     }
