@@ -1,6 +1,7 @@
 # BasicLambdaFunction--FulfillmentLex
 Basic lambda function for the fulfillment section of AWS Lex (bot)
 
+```
 exports.handler = (event, context, callback) => {
     // when intent get fulfilled, inform lex to complete the state
     var topic = event.currentIntent.slots.Topics;
@@ -16,6 +17,7 @@ exports.handler = (event, context, callback) => {
     }
     callback(null, response);
 };
+```
 
-##Note:
+## Note:
 In this example the variable topic is referring to the name of the slot Topics, which is one that i used for my the test. You can change this with the "name slots" use in your bot.
